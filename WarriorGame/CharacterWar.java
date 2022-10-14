@@ -1,33 +1,32 @@
-package WarriorGame;
+package WeakTwo.WarriorGame;
 
-import java.util.Scanner;
-
-public class Player {
+public abstract  class CharacterWar implements IMethots {
 
     private  int damage;
     private int money;
     private int health;
-    private String name;
+
     private  String charName;
 
-
-    public Player(String name) {
-        this.name = name;
+    public CharacterWar(String charName,int damage, int money, int health) {
+        this.damage = damage;
+        this.money = money;
+        this.health = health;
+        this.charName = charName;
+    }
+    //Methods
+    @Override
+    public String selectChar(){
+        return null;
     }
 
 
-    public  void selectChar( ){
-        System.out.println("ID:1-Samurai :\tDamage:5\tHealth:21\tMoney:15\t ");
-        System.out.println("ID:2-Archer  :\tDamage:7\tHealth:18\tMoney:21\t ");
-        System.out.println("ID:3-Chivalry:\tDamage:8\tHealth:24\tMoney:5\t ");
 
 
 
 
-    }
+    //GET UND SET METHOD
 
-
-    //GET UND SET METHOT
     public int getDamage() {
         return damage;
     }
@@ -52,13 +51,7 @@ public class Player {
         this.health = health;
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getCharName() {
         return charName;

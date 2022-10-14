@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="WeakTwo" />
+      <sourceFolder url="file://$MODULE_DIR$/FlyAgentSystem" isTestSource="false" packagePrefix="WeakTwo.WarriorGame.WeakThreeWorkTwo" />
+      <sourceFolder url="file://$MODULE_DIR$/GroceryStoreSystem" isTestSource="false" packagePrefix="Weak3.WeakThreeWorkOne" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
